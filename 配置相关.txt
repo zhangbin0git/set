@@ -1,0 +1,82 @@
+
+模板相关
+#!/usr/bin/env python 
+# -*- coding: utf-8 -*- 
+# @Time : ${DATE} ${TIME} 
+# @Author : Mark 
+# @Site : ${SITE} 
+# @File : ${NAME}.py 
+# @Software: ${PRODUCT_NAME}
+
+-----------------------------------------------
+
+设置缩进符为4个空格
+
+  File -> Default Settings -> Code Style
+  -> General -> 不勾选“Use tab character”
+  -> Python -> 不勾选“Use tab character”
+  -> 其他的语言代码同理设置
+
+-------------------------------
+显示“行号”与“空白字符”
+
+  File -> Settings  -> Editor ->General -> Appearance
+  -> 勾选“Show line numbers”、“Show whitespaces”、“Show method separators”
+
+
+
+---------------------------------------------
+设置IDE皮肤主题
+
+  File -> Settings -> Appearance -> Theme ->
+
+
+-----------------------------------
+设置编辑器“颜色与字体”主题
+
+  File -> Settings -> Editor -> Colors & Fonts -> Scheme name -> 选择“Darcula”
+  说明：先选择“Darcula”，再“Save As”一份，命名为“qianyunlai.com”，因为默认的主题是“只读的”，一些字体大小颜色什么的都不能修改，拷贝一份后方可修改！
+
+-------------------------------------
+修改字体大小
+  File -> Settings  -> Editor -> Colors & Fonts -> Font -> Size -> 设置为“14”
+
+
+----------------------------------------
+去掉默认折叠
+
+  File -> Settings  -> Editor -> Code Folding -> Collapse by default -> 全部去掉勾选 
+
+
+------------------------------------------
+
+“代码自动完成”时间延时设置
+
+  File -> Settings  -> Editor -> Code Completion 
+  -> Auto code completion in (ms):0
+  -> Autopopup in (ms):500
+
+
+------------------------------------
+修改IDE快捷键方案
+
+  File -> Settings  -> Keymap
+  系统自带了好几种快捷键方案，下拉框中有如“defaul”,“Visual Studio”,在查找Bug时非常有用,“NetBeans 6.5”,“Default for GNOME”等等可选项，
+  因为“Eclipse”方案比较大众，个人用的也比较多，最终选择了“Eclipse”。 
+
+  还是有几个常用的快捷键跟Eclipse不一样，为了能修改，还得先对Eclipse方案拷贝一份： 
+
+  (1).代码提示功能，默认是【Ctrl+空格】，现改为跟Eclipse一样，即【Alt+/】
+
+  Main menu -> code -> Completion -> Basic -> 设置为“Alt+/”
+  Main menu -> code -> Completion -> SmartType -> 设置为“Alt+Shift+/”
+  不过“Alt+/”默认又被 
+  Main menu -> code -> Completion -> Basic -> Cyclic Expand Word 占用，先把它删除再说吧（单击右键删除）！
+
+
+
+  (2).关闭当前文档，默认是【Ctrl+F4】，现改为跟Eclipse一样，即【Ctrl+W】
+
+  Main menu -> Window -> Active Tool Window -> Close Active Tab -> 设置为 “Ctrl+F4”;
+  Main menu -> Window -> Editor -> Close -> 设置为 “Ctrl+W”;
+
