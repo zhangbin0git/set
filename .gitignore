@@ -3,6 +3,7 @@
 
 #忽略所有.class文件
 #*.class
+*.bak
 
 #不要忽略根目录下bin文件夹中.java文件
 #!/bin/*.java
