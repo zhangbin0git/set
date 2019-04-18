@@ -53,4 +53,26 @@ python模板相关
   File -> Settings  -> Keymap
   系统自带了好几种快捷键方案，下拉框中有如“defaul”,“Visual Studio”,在查找Bug时非常有用,“NetBeans 6.5”,“Default for GNOME”等等可选项，
 
+设置单行最大字数
+==================
+File→Settings→Code Style→Right margin (columns) 的值为80，大功告成。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

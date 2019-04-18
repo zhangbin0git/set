@@ -1,18 +1,27 @@
-# ##############Linux:
-*~
+# ##############Windows:
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-# temporary files which can be created if a process still has a handle open of a deleted file
-.fuse_hidden*
+# Dump file
+*.stackdump
 
-# KDE directory preferences
-.directory
+# Folder config file
+[Dd]esktop.ini
 
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# .nfs files are created when an open file is removed but is still being accessed
-.nfs*
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
 
+# Windows shortcuts
+*.lnk
 
 # ################Python:
 # Byte-compiled / optimized / DLL files
