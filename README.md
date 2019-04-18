@@ -10,3 +10,7 @@
 
 ## ssh_set
 
+## python_set
+
+## django_set
+
