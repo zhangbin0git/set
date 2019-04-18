@@ -116,10 +116,16 @@ git branch -d dev
 
 删除分支：git branch -d <name>
 
-
+远程仓库操作
 ==============================
-
-
+仓库路径查询查询：
+git remote -v
+添加远程仓库：
+git remote add origin <你的项目地址> 
+git remote add pb git://github.com/paulboone/ticgit.git
+pb 是别名
+删除指定的远程：
+git remote rm <仓库名称>
 
 
 
