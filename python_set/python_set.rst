@@ -25,11 +25,14 @@ virtualenv 配置
 $ pip install virtualenv
 
 # 创建虚拟环境：
-$ virtualenv --no-site-packages venv (创建纯净环境)
-$ virtualenv --system-site-packages venv （创建环境，继承原安装的模块）
+$ mkdir <filename>
+$ cd <filename>
+$ virtualenv --no-site-packages .venv (创建纯净环境)
+$ virtualenv -p /usr/local/bin/python2.7 .venv (创建指定的版本)
+$ virtualenv --system-site-packages .venv （创建环境，继承原安装的模块）
 
 # 激活该虚拟环境：
-$ source venv/bin/activate
+$ source .venv/bin/activate
 
 # 退出虚拟环境：
 $ deactivate
