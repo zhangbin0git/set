@@ -127,6 +127,17 @@ pb 是别名
 删除指定的远程：
 git remote rm <仓库名称>
 
+git比较本地仓库和远程仓库的差异
+==================================
+1.更新本地的远程分支
+# git fetch origin
+2.本地与远程的差集 :（显示远程有而本地没有的commit信息）
+
+# git log master..origin/master
+3.统计文件的改动
+
+# git diff <local branch> <remote>/<remote branch>
+# git diff --stat master origin/master
 
 
 ～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～～
